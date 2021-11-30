@@ -82,9 +82,9 @@ the dapp will open at http://localhost:3000/  if port 3000 is avaible connect th
 
 ## Project Demo
 
--DApp Demo:
+-DApp Demo:https://empty-rain-2201.on.fleek.co/
 
--video Link:
+-video Link: https://www.loom.com/share/5c270b0774a441689d6c8f03ffafaecb
 
 ..
 `certificate : 0x2326085E6753be00097d0c2679229441dfbe9635`
