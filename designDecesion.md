@@ -1,0 +1,3 @@
+##Access control used to make the minting only for owner ,
+  function mint(address _to, string memory _tokenURI) public onlyOwner returns (bool) {                                                                                                                  
+##Inheritance and Interfaces : Memory Token contract make use of openzeppline methods and interfaces to feed the game smart contract logic of NFT Minting                                                                                                     contract MemoryToken is ERC721, ERC721Enumerable, ERC721URIStorage , Ownable{
