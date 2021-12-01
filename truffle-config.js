@@ -5,11 +5,20 @@ const mnemonic = process.env.REACT_APP_MNEMONIC;
 const url = process.env.REACT_APP_RPC_URL;
 module.exports = {
   networks: {
+   
     rinkeby: {
       network_id: 4,
       provider: () => {
         return new HDWalletProvider(mnemonic, url);
       },
+       gas: 5000000,
+        gasPrice: 45000000000,
+        confirmations: 2,
+        timeoutBlocks: 200,
+        skipDryRun: false,
+        websocket: true,
+        timeoutBlocks: 50000,
+        networkCheckTimeout: 1000000
     },
     development: {
       host: "127.0.0.1",

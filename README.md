@@ -65,7 +65,7 @@ SECOND: cd blockchain-developer-bootcamp-final-project
 THIRD:  open project vscode or any IDE 
 FORTH:  yarn install or npm install
 FIFTH:  if deploy locally make sure you have ganache-cli and truffle should be  installed globally
-        if deploy on textnet (rinkeby) create ".env" file and place your memonic as 
+        if deploy on testnet (rinkeby) create ".env" file and place your memonic as 
         REACT_APP_MNEMONIC = ... and your RPC_url as REACT_APP_RPC_URL = ... (infura or any other provider)
          and without comma (;) at the end and without qoutes.
 SIXTH: run "truffle develop" | for windows users you may face some error so better use wsl2-ubuntu 20.4 terminal
